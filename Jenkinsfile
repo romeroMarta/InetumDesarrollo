@@ -8,6 +8,7 @@ pipeline
     clima = "soleado"
   }
   stages
+  {
     stage("info de mi ciudad")
     {
       steps
@@ -38,4 +39,5 @@ pipeline
                 }
       }
     }
+}
 }
